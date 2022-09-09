@@ -1,12 +1,11 @@
 #include <iostream>
 #include "Lvector.hpp"
-
+#include <vector>
 
 
 int main()
 {
-
-    std::cout << "hello Lvector\n";
+    lty::DataStruct::Lvector<int> vec;
 
     return 0;
 }
